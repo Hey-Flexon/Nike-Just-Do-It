@@ -1,0 +1,266 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.list-container {
+    width: 200px;
+    overflow: hidden;
+    
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-height: 150px; 
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+.list-container:hover .list {
+    max-height: 300px; 
+}
+.list li {
+    padding: 10px;
+ 
+    cursor: pointer;
+}
+
+h3{
+    margin-left: 10px;
+}
+h3:hover {
+    cursor: default;
+}
+
+.container {
+    margin-top: 20px;
+    width: 400px;
+    height: 200px;
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+
+
+
+
+
+
+
+/* body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.list-container {
+    width: 200px;
+    position: relative;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 60px;
+    transition: height 0.3s ease;
+    position: relative;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+}
+
+.list li {
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+}
+
+.list li:hover {
+    background-color: #ddd;
+}
+
+.list-container:hover .list {
+    height: 100px;
+}
+
+ */
+
+
+ .menu {
+    margin-left: 270px;
+    margin-right: 270px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  strong{
+    font-size: 20px;
+  }
+  .category {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+  
+  .fixed-items {
+    position: relative;
+  }
+  
+  .expandable-items {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+  }
+  
+  /* Hovering on any .dropdown will expand all expandable-items */
+  .menu:hover .expandable-items {
+    max-height: 200px; /* Adjust the height as necessary */
+  }
+  
+  .expandable-items span,
+  .fixed-items span {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .category li strong {
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+  }
+
+  li{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+    cursor: default;
+  }
+
+  .dropdown{
+    
+    cursor: pointer;
+  }
+
+  .fixed-items span:hover{
+   color: rgb(0, 0, 0);
+   transition:  0.3s ease;
+  }
+  
+  .fixed-items span
+  { margin-top: 20px;
+    font-size: 18px;
+ color: rgb(111, 111, 111);
+  }
+
+  .expandable-items span:hover{
+    
+    color: rgb(0, 0, 0);
+    transition:  0.3s ease;
+   }
+
+   .expandable-items {
+    margin-top: -10px;
+   }
+   .expandable-items span
+   {
+    margin-top: 20px;
+    font-size: 18px;
+  color: rgb(111, 111, 111);
+   }
+
+
+
+.footer {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f9f9f9;
+    font-size: 13px;
+    color: #666;
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+.footer ul li {
+    margin-bottom: 8px;
+}
+.footer ul li a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+}
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+.footer-bottom {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-top: 1px solid #ffffff;
+    padding: 20px 40px;
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:90px;
+}
+.foot p a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+    color: black;
+}
+.footer-bottom .foot{
+    display: flex;
+}
+.footer-bottom .country {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.footer-bottom .country img {
+    margin-right: 8px;
+}
+
+
+hr{
+    color: #dfdddd;
+    margin-top: 70px;
+}
+#last-one ul{
+    margin-right: 590px;
+}
+.lst strong{
+    font-size: 16px;
+}
+.country p{
+    font-size: 15px;
+    font-weight: bold;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -21px;
+    margin-left: 20px;
+}
+
